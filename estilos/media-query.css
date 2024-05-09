@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    
+    body{
+       background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    #conteudo{
+        float: right;
+    }
+
+    section{
+        width: 600px;
+    }
+
+    .entrada > p > input{
+        width: 93%;
+    }
+    #image{
+        float: left;
+    }
+
+    #text{
+        font-size: 0.9em;
+    }
+
+}
+
+@media screen and (min-width: 992px){
+     
+    section{
+        width: 900px;
+    }
+
+    .entrada > p > input{
+        width: 95%;
+    }
+
+}
